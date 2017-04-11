@@ -4,6 +4,9 @@ html {
 
 .header {
   background-color: #ED7B66;
+}
+
+.header-nav {
   padding-bottom: 1.3rem;
 }
 
@@ -21,15 +24,43 @@ ul {
   margin: 0;
 }
 
+.img-flex {
+  width: 100%;
+}
+
+.banner {
+
+}
+
 .banner-content {
   color: #fff;
-
 }
 
 .value-prop,
 .product-statement {
   font-weight: 300;
+  max-width: 260px;
 }
+
+.btn {
+  background-color: #ED7B66;
+  border-color: #ED7B66;
+}
+
+
+.footer {
+  background-color: #ED7B66;
+  color: #fff;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin: 0;
+}
+
 
 @media only screen and (min-width: 38em) {
 
@@ -41,7 +72,7 @@ ul {
     text-align: right;
   }
 
-  .header {
+  .header-nav {
     padding-bottom: 0;
   }
 
