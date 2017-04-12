@@ -12,11 +12,26 @@ html {
 
 a {
   text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+.header-nav-a {
+  text-decoration: none;
   color: #fff;
   list-style-type: none;
 }
 
+.link-card {
+  color: darkgrey;
+}
+
+
 li {
+  display: inline-block;
+}
+
+.header-nav-li {
   display: inline-block;
 }
 
@@ -29,22 +44,44 @@ ul {
 }
 
 .banner {
+  position: relative;
+  max-height: 500px;
 
 }
 
 .banner-content {
   color: #fff;
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  max-width: 50em;
+
 }
 
 .value-prop,
 .product-statement {
   font-weight: 300;
-  max-width: 260px;
+}
+
+.product-statement {
+  max-width: 278;
 }
 
 .btn {
   background-color: #ED7B66;
   border-color: #ED7B66;
+}
+
+.cards {
+  background-color: #f4f4f4;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.our-goals {
+  color: #95989A;
 }
 
 
@@ -75,5 +112,21 @@ ul {
   .header-nav {
     padding-bottom: 0;
   }
+
+  .banner {
+    position: relative;
+    max-height: 500px;
+    overflow: hidden;
+
+  }
+
+  .banner-content {
+    color: #fff;
+    position: absolute;
+    bottom: 1rem;
+    text-align: right;
+    max-width: 50em;
+
+
 
 }
