@@ -20,6 +20,10 @@ a {
   color: #fff;
 }
 
+a:hover {
+  color: #e2e2e2;
+}
+
 .header-nav-a {
   text-decoration: none;
   color: #fff;
@@ -142,7 +146,14 @@ h2 {
     bottom: 1rem;
     text-align: right;
     max-width: 50em;
+  }
 
+  .product-statement{
+    max-width: 556px;
+  }
 
+  .goalz {
+    max-width: 236px;
+  }
 
 }
