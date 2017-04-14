@@ -24,21 +24,94 @@
       </div>
 
       <div class="nav-btn unit text-center xs-1 s-1 m-1-2 l-1-2 gutter">
-        <nav class="header-nav">
+        <nav class="header-nav list-group">
           <ul>
-            <li><a class="header-nav-a micro gutter-1-2" href="tour.html">PRODUCT</a></li>
-            <li><a class="header-nav-a micro gutter-1-2" href="pricing.html">PRICING</a></li>
-            <li><a class="header-nav-a micro gutter-1-2 select" href="sign-up.html">SIGN UP</a></li>
+            <li><a class="header-nav-a micro gutter-1-2 list-group-item" href="tour.html">PRODUCT</a></li>
+            <li><a class="header-nav-a micro gutter-1-2 list-group-item" href="pricing.html">PRICING</a></li>
+            <li><a class="header-nav-a micro gutter-1-2 list-group-item select" href="sign-up.html">SIGN UP</a></li>
           </ul>
         </nav>
       </div>
     </div>
 
-    <div class="banner">
+    <div class="banner push-2">
       <img class="img-flex" src="images/sign-up-pic.jpg" alt="">
       <div class="banner-content gutter text-center">
-        <h1><span class="product sign-up text-center yotta">SIGN UP</h1>
+        <h1 class="product sign-up text-center yotta">SIGN UP</h1>
       </div>
 
     </div>
   </header>
+
+  <main>
+    <section class="pad-t-2 pad-b-2">
+      <div class="max-length gutter">
+        <h2 class="push-0 exa">TRY CINEMASTITCH</h2>
+        <p class="micro push">Sign up for a <strong>free</strong> 30 day trial!</p>
+
+        <form class="push-0" method="POST" action="http://formspree.io/estherfjohnson@gmail.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" name="name">
+          </div>
+          <div class="push">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="john@smith.com" name="email">
+          </div>
+          <div class="push">
+            <label for="username">Username</label>
+            <p class="micro italic push-0">must contain up to 12 characters</p>
+            <input id="username" name="usernames">
+          </div>
+          <div class="push">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+          </div>
+          <div class="push-2">
+            <label for="subject">Country</label>
+            <select id="subject" name="_subject">
+              <option>Canada</option>
+              <option>United States</option>
+            </select>
+          </div>
+          <div>
+            <button class="create btn btn-light push-2" type="submit">CREATE ACCOUNT</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer grid grid-middle island">
+
+    <div class="insta unit xs-1-3 s-1-3 text-center">
+      <i class="icon i-32">
+        <img src="images/insta-logo.svg" alt="">
+      </i>
+    </div>
+    <div class="vimeo unit xs-1-3 s-1-3 text-center">
+      <i class="icon i-32">
+        <img src="images/vimeo-logo.svg" alt="">
+      </i>
+    </div>
+    <div class="fb unit xs-1-3 s-1-3 text-center">
+      <i class="icon i-32">
+        <img src="images/fb-logo.svg" alt="">
+      </i>
+    </div>
+
+    <div class="unit xs-1-3 s-1-3 text-center pad-t micro underline">
+      <a href="#">contact</a>
+    </div>
+    <div class="unit xs-1-3 s-1-3 text-center pad-t micro underline">
+      <a href="#">terms of use</a>
+    </div>
+    <div class="unit xs-1-3 s-1-3 text-center pad-t micro underline">
+      <a href="#">privacy</a>
+    </div>
+
+    <p class="micro unit xs-1 s-1 text-center pad-t copyright">© CINEMASTITCH 2017</p>
+  </footer>
+
+</body>
+</html>
