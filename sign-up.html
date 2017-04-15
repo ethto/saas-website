@@ -46,7 +46,7 @@
   <main>
     <section class="pad-t-2 pad-b-2">
       <div class="max-length gutter">
-        <h2 class="push-0 exa">TRY CINEMASTITCH</h2>
+        <h2 class="push-0 exa try">TRY CINEMASTITCH</h2>
         <p class="micro push">Sign up for a <strong>free</strong> 30 day trial!</p>
 
         <form class="push-0" method="POST" action="http://formspree.io/estherfjohnson@gmail.com">
@@ -60,8 +60,8 @@
           </div>
           <div class="push">
             <label for="username">Username</label>
-            <p class="micro italic push-0">must contain up to 12 characters</p>
-            <input id="username" name="usernames">
+            <p class="micro italic push-0">no more than 12 characters</p>
+            <input maxlength="12" id="username" name="username">
           </div>
           <div class="push">
             <label for="password">Password</label>

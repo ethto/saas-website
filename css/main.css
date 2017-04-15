@@ -3,7 +3,7 @@ html {
 }
 
 .header {
-  background-color: #ED7B66;
+  background-color: #ed7b66;
 }
 
 h1 {
@@ -28,6 +28,12 @@ a:hover {
   text-decoration: none;
   color: #fff;
   list-style-type: none;
+}
+
+.nav-cinemastitch {
+  font-weight: 300;
+  padding-left: 1em;
+  font-size: .6000rem
 }
 
 .card-link {
@@ -88,8 +94,8 @@ ul {
 }
 
 .btn {
-  background-color: #ED7B66;
-  border-color: #ED7B66;
+  background-color: #ed7b66;
+  border-color: #ed7b66;
 }
 
 .cards {
@@ -100,13 +106,17 @@ h2 {
   font-weight: 300;
 }
 
+.try {
+  color: #ed7b66;
+}
+
 .our-goals {
-  color: #95989A;
+  color: #95989a;
 }
 
 
 .footer {
-  background-color: #ED7B66;
+  background-color: #ed7b66;
   color: #fff;
 }
 
