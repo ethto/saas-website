@@ -79,7 +79,6 @@ ul {
   text-align: right;
   font-size: 3.5rem;
 }
-
 .value-prop,
 .product-statement {
   font-weight: 300;
@@ -91,6 +90,10 @@ ul {
 .create {
   color: #fff;
   font-weight: 300;
+}
+
+.big-bullet {
+  color: #ed7b66;
 }
 
 .btn {
@@ -106,6 +109,22 @@ h2 {
   font-weight: 300;
 }
 
+h3 {
+  font-weight: 300;
+}
+
+.h3-product {
+  color: #6063ad;
+}
+
+.h3-learn {
+  color: #ed7b66;
+}
+
+.h3-pricing {
+  color: #56baaf;
+}
+
 .try {
   color: #ed7b66;
 }
@@ -113,7 +132,6 @@ h2 {
 .our-goals {
   color: #95989a;
 }
-
 
 .footer {
   background-color: #ed7b66;
@@ -128,6 +146,29 @@ h2 {
   margin: 0;
 }
 
+.comp-text {
+  font-size: 1.383rem;
+}
+
+.bullet-list {
+  width: 240px;
+}
+
+.link-card {
+  width: 200px;
+}
+
+tbody th {
+  font-weight: 300;
+}
+
+tfoot {
+  font-weight: normal;
+}
+
+table {
+  min-width: 25em;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -162,8 +203,44 @@ h2 {
     max-width: 556px;
   }
 
+  .comp-text {
+    font-size: 1.2962rem
+  }
+
   .goalz {
     max-width: 236px;
+  }
+
+  .bullet-list {
+    width: 260px;
+  }
+
+  .link-card {
+    width: 250px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .comp-text {
+    font-size: 1.383rem;
+  }
+
+  .bullet-list {
+    width: 300px;
+  }
+
+  .link-card {
+    width: 300px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .bullet-list {
+    width: 340px;
   }
 
 }
