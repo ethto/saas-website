@@ -33,13 +33,12 @@ a:hover {
 .nav-cinemastitch {
   font-weight: 300;
   padding-left: 1em;
-  font-size: .6000rem
+  font-size: .6rem;
 }
 
 .card-link {
   color: darkgrey;
 }
-
 
 li {
   display: inline-block;
@@ -79,12 +78,10 @@ ul {
   text-align: right;
   font-size: 3.5rem;
 }
+
 .value-prop,
 .product-statement {
   font-weight: 300;
-}
-
-.product-statement {
 }
 
 .create {
@@ -199,12 +196,12 @@ table {
     max-width: 50em;
   }
 
-  .product-statement{
+  .product-statement {
     max-width: 556px;
   }
 
   .comp-text {
-    font-size: 1.2962rem
+    font-size: 1.2962rem;
   }
 
   .goalz {
