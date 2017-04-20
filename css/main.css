@@ -102,11 +102,9 @@ ul {
   background-color: #f4f4f4;
 }
 
-h2 {
-  font-weight: 300;
-}
-
-h3 {
+h2,
+h3,
+h4 {
   font-weight: 300;
 }
 
