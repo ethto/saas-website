@@ -192,6 +192,10 @@ table {
   max-width: 25em;
 }
 
+.cloud-storage {
+  background-color: #f4f4f4;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
